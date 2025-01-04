@@ -96,6 +96,8 @@ tribble(
     "Grupo EDUCA EDTECH", "Data Analyst","Granada, ES", "06, 2023 - presente", "Implemento segmentaciones de datos mediante clústeres, identificando grupos homogéneos de clientes y usuarios para personalizar estrategias de marketing.",
     "Grupo EDUCA EDTECH", "Data Analyst","Granada, ES", "06, 2023 - presente", "Utilizo técnicas de procesamiento de lenguaje natural (NLP) para comparar y evaluar textos, identificando similitudes semánticas con precisión. Esto ha permitido minimizar el canibalismo de palabras clave en la página web y mejorar la calidad y coherencia de los productos de la organización.",
   "Grupo EDUCA EDTECH", "Data Analyst","Granada, ES", "06, 2023 - presente", "Desarrollé un modelo de Marketing Mix Modeling (MMM) utilizando R, integrando datos de múltiples canales de marketing para analizar su impacto en los ingresos y otras métricas clave.",
+  "Grupo EDUCA EDTECH", "Data Analyst","Granada, ES", "06, 2023 - presente", "Extraigo datos de Google Analytics 4, Google Search Console, Google Ads y Facebook Ads mediante sus APIs, y los analizo para evaluar métricas clave que optimicen estrategias de marketing digital y mejoren el rendimiento de las campañas.",
+  "Grupo EDUCA EDTECH", "Data Analyst","Granada, ES", "06, 2023 - presente", "Utilizo técnicas de web scraping para recolectar datos de sitios web relevantes, transformándolos en insights que respaldan la gestión de la empresa.",
     "Grupo EDUCA EDTECH", "Data Analyst","Granada, ES", "06, 2023 - presente", "Diseño, desarrollo y brindo mantenimiento de dashboards en herramientas como Looker, Power BI y Looker Studio para monitoreo de métricas empresariales.",
     "Grupo EDUCA EDTECH", "Data Analyst","Granada, ES", "06, 2023 - presente", "Realizo análisis de métricas clave (KPIs), proporcionando insights accionables para todas las áreas de la organización.",
     "Grupo EDUCA EDTECH", "Data Analyst","Granada, ES", "06, 2023 - presente", "Valido la calidad de los datos de dashboards, identificando y resolviendo inconsistencias en las fuentes de datos.",
@@ -330,16 +332,6 @@ tribble(
 ---------------------------------
 
 ```{r techtable, results='markup'}
-# tribble(
-#    ~type, ~desc,
-#    "Coding Languages",
-#     "R -- Python -- SQL -- JavaScript",
-#    "Software",
-#   "QGIS -- Earth Engine -- SAGA -- PostgreSQL -- ArcGIS -- GIMP",
-#    "Other",
-#   "Git -- Markdown -- LaTex -- OpenStreetMap"
-# ) |>
-#   brief_entries(what = desc, with = type, .protect = F)
 tribble(
    ~`Lenguajes de código`, ~`Inteligencia de negocio`, ~Otros,
   "R -- Python -- SQL",
@@ -384,7 +376,7 @@ data.frame(
     general_title = " ",
     escape = F
   ) |>
-  column_spec(column = 1:3, width = '3.0cm') #|> 
+  column_spec(column = 1:3, width = '3.2cm') #|> 
   # add_header_above(' ', line = F) |>
   # row_spec(0:4, extra_latex_after = "\\arrayrulecolor{white}") 
 ```
