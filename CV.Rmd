@@ -39,7 +39,7 @@ library(gridExtra)
 ```
 
 
-\paragraphstyle{I am an environmental engineer from Cuenca, Ecuador specialized in Geospatial Technologies, expected by March 2019. My research scope includes spatial data analysis, particularly focused on R programming; remote sensing and earth observation data analysis, specially optical satellite imagery applied to environmental studies and analyses such as air pollution, land use/land cover change; geostatistical analysis of climate data; and ecological modelling. I feel very keen to pursue a career in research, science, and academia.}
+\paragraphstyle{Soy una profesional con experiencia en análisis de datos, modelado predictivo y visualización avanzada de datos. Especializada en programación en R, Python, y herramientas como SQL, Power BI y Looker, aplico algoritmos de machine learning para generar estrategias que optimicen procesos y el flujo empresarial. Apasionada por transformar datos en soluciones innovadoras, tengo un fuerte interés en roles relacionados con ciencia de datos, investigación y mejora continua en entornos dinámicos y tecnológicos.  Desde hace 4 años, estoy profundamente comprometida con la comunidad de R y su desarrollo, aportando desde R-Ladies y en la organización de varios eventos relacionados.}
 
 
 <!-- | Nationality: Ecuadorian, Birthdate: 05/01/1994 -->
@@ -70,7 +70,7 @@ tribble(
 ```{r education3}
 tribble(
   ~ study, ~ university, ~ loc, ~ dates, ~ details,
-  "Ingeniera en Auditoría", "Escuela Superior Politécnica del Litoral", "Guayaquil, EC", "2014", "Métodos cuantitativos, Matemáticas financieras, Estadística inferencial, Muestreo y diseño de cuestionarios, Base de datos para auditores, Análisis multivariado y muestreo, Ingeniería de calidad, Auditoría operacional, Auditoría de sistemas informáticos, entre otras 34 asignaturas más.",
+  "Ingeniera en Auditoría", "Escuela Superior Politécnica del Litoral", "Guayaquil, EC", "2014", "Métodos cuantitativos, Matemáticas financieras, Estadística inferencial, Muestreo y diseño de cuestionarios, Fundamentos de computación, Base de datos para auditores, Análisis multivariado y muestreo, Ingeniería de calidad, Sistemas administrativos financieros, Auditoría operacional, Auditoría de sistemas informáticos, entre otras 34 asignaturas más.",
   "Ingeniera en Auditoría", "Escuela Superior Politécnica del Litoral", "Guayaquil, EC", "2014", "Tesis:  Diseño de un sistema de gestión por procesos, aplicado a una empresa dedicada a la rectificación de motores. URL: \\textit{https://www.dspace.espol.edu.ec/xmlui/handle/123456789/39500}",
 ) |> 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
@@ -108,9 +108,9 @@ tribble(
 ```{r experience2}
 tribble(
   ~ study, ~ university, ~ loc, ~ dates, ~ details,
-    "Sociedad Ecuatoriana de Estadística", "Instructora de Software (virtual)","Quito, EC", "04, 2022 - presente", "Módulo Softwares para el manejo de datos del Programa Internacional de Estadística aplicada a la Investigación Científica. (2 ediciones)",
-    "Sociedad Ecuatoriana de Estadística", "Instructora de Software (virtual)","Quito, EC", "04, 2022 - presente", "Curso Manejo de Datos con R de cero a ninja. (3 ediciones)",
-    "Sociedad Ecuatoriana de Estadística", "Instructora de Software (virtual)","Quito, EC", "04, 2022 - presente", "Curso Análisis de Datos con R y ShinyApps. (3 ediciones)",
+    "Sociedad Ecuatoriana de Estadística", "Instructora de Software (virtual)","Quito, EC", "04, 2022 - presente", "Imparto el Módulo Softwares para el manejo de datos del Programa Internacional de Estadística aplicada a la Investigación Científica. (2 ediciones)",
+    "Sociedad Ecuatoriana de Estadística", "Instructora de Software (virtual)","Quito, EC", "04, 2022 - presente", "Imparto el curso Manejo de Datos con R de cero a ninja. (3 ediciones)",
+    "Sociedad Ecuatoriana de Estadística", "Instructora de Software (virtual)","Quito, EC", "04, 2022 - presente", "Imparto el curso Análisis de Datos con R y ShinyApps. (3 ediciones)",
 ) |> 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
 ```
@@ -137,192 +137,196 @@ tribble(
 ```{r experience5}
 tribble(
   ~ study, ~ university, ~ loc, ~ dates, ~ details,
-    "Corporación Eléctrica del Ecuador CELEC", "Directora Administrativa","Machala, EC", "04, 2019 - 09, 2022", "Impartí las cátedras de Matemática I y II para la Carrera de Economía y Contaduría Pública Autorizada, enfocándome en conceptos fundamentales y su aplicación práctica en el ámbito financiero y económico.",
-     "Universidad Metropolitana (Sede Machala)", "Profesora universitaria a medio tiempo","Machala, EC", "04, 2019 - 09, 2022", "Participé activamente en la mejora del plan de estudios, contribuyendo a la actualización de contenidos para alinearlos con las demandas del mercado laboral.",
+    "Corporación Eléctrica del Ecuador CELEC", "Directora Administrativa","Machala, EC", "03, 2015 - 02, 2017", "Coordiné con el departamento de TI la transformación digital del área administrativa, fomentando el uso de tecnologías de datos para mejorar la gestión de personal, la gestión documental y los procesos de adquisiciones, como por ejemplo, el monitoreo de asistencias, análisis de absentismos, gestión de permisos y licencias, mejoré el flujo de revisión y aprobación del proceso de compras, de conformidad a la normativa del sector público.",
+      "Corporación Eléctrica del Ecuador CELEC", "Directora Administrativa","Machala, EC", "03, 2015 - 02, 2017", "Implementé sistemas de monitoreo y control para optimizar procesos administrativos, identificando y resolviendo ineficiencias mediante análisis de datos. Esto incluyó la optimización de rutas y asignación de choferes para reducir costos operativos, así como la planificación y gestión eficiente de cronogramas de mantenimiento preventivo de vehículos, mantenimiento de instalaciones.",
+        "Corporación Eléctrica del Ecuador CELEC", "Directora Administrativa","Machala, EC", "03, 2015 - 02, 2017", "Lideré la toma del inventario físico de la compañía valorado en 154,000,000 USD, utilizando la técnica de Pareto para enfocarme en el 20\\% de ítems que representaban el 80\\% del costo total del inventario. Este proyecto se completó exitosamente con personal propio, significando un ahorro de 200,000 USD para la empresa.",
+  "Corporación Eléctrica del Ecuador CELEC", "Directora Administrativa","Machala, EC", "03, 2015 - 02, 2017", "Supervisé y gestioné grandes volúmenes de datos administrativos y financieros, asegurando la precisión y coherencia en los informes utilizados para la toma de decisiones estratégicas de la Gerencia.",
+) |> 
+  detailed_entries(study, dates, university, loc, details, .protect=FALSE)
+```
+
+
+```{r experience6}
+tribble(
+  ~ study, ~ university, ~ loc, ~ dates, ~ details,
+    "Corporación Eléctrica del Ecuador CELEC", "Especialista de Planificación y Gestión de la Calidad","Machala, EC", "04, 2013 - 02, 2017", "Diseñé y desarrollé planes estratégicos y operativos, alineando objetivos organizacionales con los KPIs y estrategias de calidad.",
+      "Corporación Eléctrica del Ecuador CELEC", "Especialista de Planificación y Gestión de la Calidad","Machala, EC", "04, 2013 - 02, 2017", "Diseñé y desarrollé KPIs y estrategias de calidad, detectando áreas de mejora mediante análisis estadístico.",
+      "Corporación Eléctrica del Ecuador CELEC", "Especialista de Planificación y Gestión de la Calidad","Machala, EC", "04, 2013 - 02, 2017", "Analicé procesos internos utilizando herramientas como diagramas de flujo, análisis de Pareto, Ishikawa y técnicas Lean, logrando identificar y eliminar cuellos de botella.",
+      "Corporación Eléctrica del Ecuador CELEC", "Especialista de Planificación y Gestión de la Calidad","Machala, EC", "04, 2013 - 02, 2017", "Creé reportes analíticos para monitorear el rendimiento operativo y de calidad, utilizando herramientas de visualización de datos como Power BI y Excel avanzado.",
+  "Corporación Eléctrica del Ecuador CELEC", "Especialista de Planificación y Gestión de la Calidad","Machala, EC", "04, 2013 - 02, 2017", "Actué como enlace entre la Gerencia y los equipos operativos, asegurando que las estrategias de calidad y programación se alinearan con los objetivos empresariales.",
+    "Corporación Eléctrica del Ecuador CELEC", "Especialista de Planificación y Gestión de la Calidad","Machala, EC", "04, 2013 - 02, 2017", "Fui responsable de la implementación del sistema de gestión de calidad bajo la norma ISO 9001:2015.",
+      "Corporación Eléctrica del Ecuador CELEC", "Especialista de Planificación y Gestión de la Calidad","Machala, EC", "04, 2013 - 02, 2017", "Diseñé y documenté procesos clave, incluyendo procedimientos operativos estándar, políticas de calidad y registros, en cumplimiento con los requisitos de la norma.",
+      "Corporación Eléctrica del Ecuador CELEC", "Especialista de Planificación y Gestión de la Calidad","Machala, EC", "04, 2013 - 02, 2017", "Formé y capacité al personal en los principios y requisitos de la ISO 9001:2015, fomentando una cultura de calidad dentro de la organización.",
 ) |> 
   detailed_entries(study, dates, university, loc, details, .protect=FALSE)
 ```
 
 
 
-\faIcon*{file} Selected Publications
-===========================
-
-\scriptsize
-
-For a complete list of publications see [*my Google Scholar profile*](https://scholar.google.com/citations?user=vDqPwpUAAAAJ&hl=en).
-
-- **Abad, L.**, Sudmanns, M., Hölbling, D. W. (2024). [*Vector data cubes for features evolving in space and time*](https://doi.org/10.5194/agile-giss-5-16-2024). AGILE GIScience Ser., 5(16). 
-- **Abad, L.** (2024). [*Geomorphic landform monitoring with raster and vector data cubes*](https://doi.org/10.5194/egusphere-egu24-10019). EGU General Assembly 2024, Vienna, Austria.
-- **Abad, L.**, Hölbling, D., Spiekermann, R., Prasicek, G., Dabiri, Z., Argentin, A.-L. (2022). [*Detecting landslide-dammed lakes on Sentinel-2 imagery and monitoring their spatio-temporal evolution following the Kaikōura earthquake in New Zealand*](https://doi.org/10.1016/j.scitotenv.2022.153335). Science of The Total Environment, 820, 153335. 
-- **Abad, L.**, Hölbling, D. W., Dabiri, Z., Robson, B. A. (2022). [*An open-source-based workflow for DEM generation from Sentinel-1 for landslide volume estimation*](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLVIII-4-W1-2022/5/2022/). ISPRS - International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 4/W1-2022, p. 5-11.
-- **Abad, L.**, Hölbling, D., Albrecht, F., Dias, H. C., Dabiri, Z., Reischenböck, G., Tešić, D. (2022). [*Mass movement susceptibility assessment of alpine infrastructure in the Salzkammergut area, Austria*](https://doi.org/https://doi.org/10.1016/j.ijdrr.2022.103009). International Journal of Disaster Risk Reduction, 103009. 
-- Hennig, S., **Abad, L.**, Hölbling, D., Tiede, D. (2022). [*Citizen science and geomorphology: the citizenMorph pilot system for observing and reporting data on landforms*](https://doi.org/10.1088/1748-9326/ac8235). Environmental Research Letters, 17(8), 085004. 
-- Dabiri, Z., Hölbling, D., **Abad, L.**, Helgason, J. K., Sæmundsson, Þ., Tiede, D. (2020). [*Assessment of Landslide-Induced Geomorphological Changes in Hítardalur Valley, Iceland, Using Sentinel-1 and Sentinel-2 Data*](https://doi.org/10.3390/app10175848). Applied Sciences, 10(17), 5848.
-- Hölbling, D., **Abad, L.**, Dabiri, Z., Prasicek, G., Tsai, T.-T., Argentin, A.-L. (2020). [*Mapping and Analyzing the Evolution of the Butangbunasi Landslide Using Landsat Time Series with Respect to Heavy Rainfall Events during Typhoons*](https://doi.org/10.3390/app10020630). Applied Sciences. 10, 630.
-- **Abad, L**., van der Meer, L. (2018). [*Quantifying Bicycle Network Connectivity in Lisbon Using Open Data*](https://doi.org/10.3390/info9110287). Information, 9(11), 14.
-
-<!-- - Dabiri, Z., Hölbling, D., **Abad, L.**, Guðmundsson, S. (2021). [*Comparing the Applicability of Sentinel-1 and Sentinel-2 for Mapping the Evolution of Ice-marginal Lakes in Southeast Iceland*](https://doi.org/10.1553/giscience2021_01_s46). GI_Forum, 1(1), 46–52. -->
-<!-- - Argentin, A. L., Robl, J., Prasicek, G., Hergarten, S., Hölbling, D., **Abad, L.**, Dabiri, Z. (2021). [*Controls on the formation and size of potential landslide dams and dammed lakes in the Austrian Alps*](https://doi.org/10.5194/nhess-21-1615-2021). Natural Hazards and Earth System Sciences, 21(5), 1615-1637.  -->
-<!-- - Dabiri, Z., Hölbling, D., **Abad, L.**, Helgason, J. K., Sæmundsson, Þ., Tiede, D. (2020). [*Generation of Multi-Temporal DEMs from Sentinel-1 for Assessing Geomorphological Changes in the Hítardalur Valley, Western Iceland*](https://doi.org/10.1130/abs/2020AM-357105). Geological Society of America Abstracts with Programs, 52 (6). -->
-<!-- - Hennig, S., **Abad, L.**, Hölbling, D., Tiede, D. (2020). [*Implementing Geo Citizen Science Solutions: Experiences from the citizenMorph Project*](https://doi.org/10.1553/giscience2020). Journal for Geographic Information Science, 7(2), 3–14. -->
-<!-- - **Abad, L.**, Hölbling, D., Spiekermann, R., Dabiri, Z., Prasicek, G., Argentin, A.-L. (2020). [*Mapping and monitoring of landslide-dammed lakes using Sentinel-2 time series -a case study after the 2016 Kaikōura Earthquake in New Zealand*](https://doi.org/10.5194/egusphere-egu2020-572). EGU General Assembly 2020. -->
-<!-- - **Abad, L.**, Mejia, D., Leon, P., Cardenas, I., Pacheco, B., Tonon, M. (2017). [*Water Quality and Environmental Variables on Endangered Amphibious’ Habitats in Cuenca’s City Urban Area*](http://dspace.ucuenca.edu.ec/retrieve/0c371040-81df-45c9-9167-37f5a1e5dc32/documento.pdf) (Spanish). Revista de la Facultad de Ciencias Quimicas, 18. p. 18-34. -->
-\normalsize
-
-
-<!-- [ProAc](https://www.fabiocrameri.ch/proac/) profile -->
-<!-- ----------------------------------------------------- -->
-
-<!--
-\faIcon{lightbulb} Projects
-=====================================
-
-\smallskip
-
-\faIcon{satellite} Research projects
----------------------------------
-<!-- \par\noindent\nobreak\vspace{-30pt}\rule{\textwidth}{1pt} -->
-
-<!--
-```{r proj}
-tribble(
-  ~ name, ~ acronym, ~ date, ~study_area,
-  "Smarter Targeting of Erosion Control", "STEC", "2018 - 2023", "NZ", 
-  "The impact of mass movements on alpine trails and huts assessed by EO data", "MontEO \\href{http://monteo.zgis.at/}{\\tiny{\\faIcon{link}}}", "2020 - 2021", "AT", 
-  "Detection and Analysis of Landslide-induced River Course Changes and Lake Formation", "RiCoLa \\href{http://landslides-and-rivers.sbg.ac.at/}{\\tiny{\\faIcon{link}}}", "2017 - 2020", "AT, NZ, TW", 
-  "Observation and Reporting of Landscape Dynamics by Citizens", "citizenMorph \\href{http://citizenmorph.sbg.ac.at/}{\\tiny{\\faIcon{link}}}", "2018 - 2020", "AT, DE, IS", 
-  "Mapping, Monitoring and Modelling the Spatio-Temporal Dynamics of Land Surface Morphology", "MORPH \\href{http://morph.sbg.ac.at/}{\\tiny{\\faIcon{link}}}", "2016 - 2020", "IS"
-) |> 
-  detailed_entries(with = acronym, what = name, when = date, where = study_area, .protect=FALSE)  
-```
-
-\smallskip
-
-\faIcon{laptop-code} Programming projects
-----------------------------------
-<!-- \par\noindent\nobreak\vspace{-30pt}\rule{\textwidth}{1pt} -->
-
-<!--
-```{r dev}
-tribble(
-  ~ name, ~ sum, ~ acronym, ~ type, ~ lang, ~ link,
-  "Landslide dammed-lakes detection and monitoring after the Kaikōura earthquake in New Zealand", 
-  "GEE project: Landslide dammed-lakes detection and monitoring in Kaikōura, NZ",
-  "Kaikoura landslide dammed-lakes \\href{https://github.com/loreabad6/KaikouraDammedLakes_public}{\\tiny{\\faLink}}", 
-  "GEE project",
-  "JavaScript",
-  "\\href{https://github.com/loreabad6/KaikouraDammedLakes_public}{\\faGithub}",
-  
-  "Blog: Lore Abad", 
-  "Lore Abad: Distill blog with my data science work", 
-  "Blog \\href{https://loreabad6.github.io/}{\\tiny{\\faLink}}", 
-  "Distill blog",
-  "R",
-  "\\href{https://loreabad6.github.io/}{\\faGlobe}",
-  
-  "Tidy Geospatial Networks in R", 
-  "\\textit{sfnetworks} Tidy Geospatial Networks in R", 
-  "sfnetworks \\href{https://luukvdmeer.github.io/sfnetworks/}{\\tiny{\\faLink}}", 
-  "R Package",
-  "R",
-  "\\href{https://luukvdmeer.github.io/sfnetworks/}{\\faGithub}",
-  
-  "Bicycle Network Analysis Score for UK and NL",
-  "BNA-EU: Bicycle Network Analysis Score for UK and NL",
-  "BNA-EU \\href{https://github.com/loreabad6/masters-thesis-geotech}{\\tiny{\\faLink}}", 
-  "RMarkdown Reporting",
-  "R \\& SQL",
-  "\\href{https://github.com/loreabad6/masters-thesis-geotech}{\\faGithub}"
-) |> 
-  brief_entries(with = lang, what = sum, when = link, .protect=FALSE)  
-```
--->
-<!--
-
-\faIcon{comments} Presentations, blogs, courses
-================================
+\faIcon{comments} Presentaciones, blogs y talleres
+===============================================
 
 ```{r presentations}
 tribble(
   ~ title, ~ link, ~ event, ~ date,
-  "Mapping and monitoring landslide-dammed lakes in Kaikōura, New Zealand, using the Google Earth Engine", "Lightning Talk at the Geo For Good 2020 Summit Public Sector Meetup \\href{https://www.youtube.com/watch?v=CbHYkUpCwCI&ab_channel=GoogleEarth}{\\tiny{\\faIcon{link}}}", "Geo for Good 2020", "10, 2020",
-  "El rol de las tecnologías geoespaciales para el mapeo y monitoreo de peligros naturales", "Invited talk at the event 'Voces de la Ingeniería Ambiental' \\href{https://loreabad6.github.io/VocesAmbiental/presentacion.html}{\\tiny{\\faIcon{link}}}", "Voces Ambiental 2020", "09, 2020",
-  "Bicycle Network Analysis for assessing cyclability", "Presentation during Cycling Potential Hackathon: Lisbon \\href{https://github.com/U-Shift/cyclingpotential-hack}{\\tiny{\\faIcon{link}}}", "U-Shift event", "09, 2020",
-  "Implementing geo citizen science solutions: experiences from the citizenMorph project", "Full paper presentation in session C43: Spatial Citizens Science \\href{https://www.conftool.com/giweek2020/index.php?page=browseSessions&form_session=202}{\\tiny{\\faIcon{link}}}", "Gi-Forum 2020", "07, 2020",
-  "Tidy Geospatial Networks in R: Introducing the sfnetworks package", "Webinar \\& Hackathon \\href{https://sfnetworks.github.io/sfnetworks-webinar/slides}{\\tiny{\\faIcon{link}}}", "e-Rum 2020 satellite event", "06, 2020",
-  "Mapping and monitoring of landslide-dammed lakes using Sentinel-2 time series", "Display in session Natural Hazards NH6.1 \\href{https://presentations.copernicus.org/EGU2020/EGU2020-572_presentation.pdf}{\\tiny{\\faIcon{link}}}", "EGU 2020", "05, 2020",
-  "Intro to spatial vector data analysis with R","R spatial crash course \\href{https://luukvdmeer.github.io/maptimeR/exercises.html}{\\tiny{\\faIcon{link}}}", "Maptime Salzburg", "02, 2020",
-  "Spatial networks in R with sf and tidygraph", "Blogpost \\href{https://www.r-spatial.org/r/2019/09/26/spatial-networks.html}{\\tiny{\\faIcon{link}}}", "r-spatial blog", "09, 2019",
-  "Bicycle Network Analysis for Lisbon", "Short Paper Presentation in the 2nd Open Data for Open Cities Workshop \\href{https://github.com/GeoTecINIT/OpenData4OpenCities/blob/master/Presentations/AGILE_2018_Presentation_Abad-vdMeer.pdf}{\\tiny{\\faIcon{link}}}", "AGILE Workshop: OD4OC", "06, 2018",
-  "Exploring Space-Time Patterns Of Volunteered Cycling Data In An Intermediate City", "Abstract Presentation", "GeoMundus 2017", "11, 2017"
+  "Fundamentos de ciencia de datos con R - Minería de texto", "Sesión 9 - Club de Lectura \\href{https://github.com/lindateachtech/mineria_de_texto/blob/main/README.md}{\\tiny{\\faIcon{link}}}", "R-Ladies Barranquilla", "10, 2024",
+    "Influencia de las calificaciones de jugadores en FIFA sobre los salarios de futbolistas: un análisis de género en la Premier League", "XXXVII INTERNATIONAL CONFERENCE ASEPELT", "ASEPELT24", "06, 2024",
+  "Algoritmos en acción: Potenciando el marketing digital a través de la ciencia y R", "Women in Data Science Ecuador 2024 - Sede Machala \\href{https://www.youtube.com/watch?v=SWLsk5xUkig&list=PL2PpISw8vp_pZzLWG2ecddpKAnNUa8uiZ}{\\tiny{\\faIcon{link}}}", "Sociedad Ecuatoriana de Estadística", "06, 2024",
+      "RLadies, la igualdad también se programa", "Invitación al Podcast de EDUCA EDTECH GROUP \\href{https://www.youtube.com/watch?v=AtRhU8ULMtw&list=PLX1TkkfGdFkCt58GE8nEmUh7xGATXQusm&index=9}{\\tiny{\\faIcon{link}}}", "Generación EDTECH", "06, 2024",
+      "¿Cómo conectar RStudio con GitHub?", "Blog personal \\href{https://lindajzmin-website.netlify.app/blogs/conectar-rstudio-github/}{\\tiny{\\faIcon{link}}}", "Blog", "04, 2023",
+        "¿Cómo instalar R y RStudio", "Blog personal \\href{https://lindajzmin-website.netlify.app/blogs/instalacion-r-rstudio/}{\\tiny{\\faIcon{link}}}", "Blog", "04, 2023",
+        "Control de versiones con Git y GitHub", "Pre-Congreso TECDES - 5º Congreso Internacional de Tecnologías para el Desarrollo \\href{https://github.com/lindateachtech/taller_git_utmach}{\\tiny{\\faIcon{link}}}", "UTMACH", "09, 2022",
+      "Control de versiones con Git", "Ponente en el 18º Festival Latinoamericano de Instalación de Software Libre - Taller The Carpentries \\href{https://github.com/lindateachtech/taller_git_flisol}{\\tiny{\\faIcon{link}}}", "FLISOL Loja 2022", "05, 2022",
+    "Introducción al análisis de datos con R", "Ponente en el 18º Festival Latinoamericano de Instalación de Software Libre \\href{https://github.com/lindateachtech/intro_analisis_datos}{\\tiny{\\faIcon{link}}}", "FLISOL Marcabelí 2022", "04, 2022",
+        "R for Data Science - Rmarkdown, formatos y flujo de trabajo", "Sesión 13 - Club de Lectura \\href{https://www.meetup.com/es-ES/rladies-guayaquil/events/281534050/?eventorigin=group_events_list}{\\tiny{\\faIcon{link}}}", "R-Ladies Guayaquil", "10, 2021",
+      "R for Data Science - Flujo de trabajo y transformación de datos", "Sesión 9 - Club de Lectura \\href{https://www.meetup.com/es-ES/rladies-guayaquil/events/280252105/?eventorigin=group_events_list}{\\tiny{\\faIcon{link}}}", "R-Ladies Guayaquil", "09, 2021",
+    "R for Data Science - Comunicar con gráficos", "Sesión 8 - Club de Lectura \\href{https://github.com/lindateachtech/28_comunicar_con_graficos?tab=readme-ov-file}{\\tiny{\\faIcon{link}}}", "R-Ladies Guayaquil", "08, 2021",
+      "El debate en Twitter sobre el encarcelamiento de Pablo Hasél usando Procesamiento de Lenguaje Natural", "Women in Data Science Ecuador 2021 - Sede Quito \\href{https://github.com/lindateachtech/text_mining/blob/main/README.md}{\\tiny{\\faIcon{link}}}", "Sociedad Ecuatoriana de Estadística", "04, 2021",
+      "Una solución probabilística de modelos epidemiológicos tipo SIS aleatorios", "Quinto Congreso en conjunto del Máster en Investigación Matemática y del Doctorado", "Universidad de Valencia", "01, 2018",
 ) |> 
   detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
 ```
--->
 
-<!-- \faIcon{medal} Awards & Distinctions -->
-<!-- =============================== -->
 
-```{r dist}
-# tribble(
-#   ~ area, ~ org, ~ date,
-#   "FOSS4G 2022 conference - travel grant", "OSGeo Foundation", "2022",
-#   "Copernicus Masters Austria price (2nd place)", "Copernicus Masters", "2020",
-#   "ISC funding for {sfnetworks}", "R-Consortium", "2019",
-#   "Benigno Malo Prize - University Honors Award", "Universidad de Cuenca", "2018",
-#   "AGILE 2018 conference - travel grant", "AGILE \\& ESRI", "2018",
-#   "Erasmus Mundus Scholarship", "European Commission", "2017",
-#   # "Best Scientific Poster - 2nd International Summer School \\newline 
-# # ``The Biodiversity of Genes, Species and Ecosystems''", "Universität Osnabrück","2015",
-#   "Vanguardia Honors Program", "Universidad de Cuenca", "2014 - 2016"
-# ) |> 
-#   brief_entries(what = area, when = date, with = org, .protect = F)
+
+\faIcon*{file} Capacitación
+===========================
+
+\scriptsize
+
+```{r capacitacion01}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Data Lake Modernization on Google Cloud: Data Governance", "Google Cloud", " ", "11, 2024",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
 ```
 
-<!-- \faIcon{hand-holding-heart} Volunteer work -->
-<!-- =============================== -->
 
-```{r vol}
-# tribble(
-#   ~ desc, ~ date,
-#   "Group Peer Mentor in Women in Geospatial+ Mentorship Program", "2020-2021"
-# ) |>
-#   brief_entries(what = desc, when = date, .protect = F)
+```{r capacitacion02}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Developing Data Models with LookML", "Google Cloud", " ", "11, 2024",   
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
 ```
 
-\faIcon{brain} Skills
+
+```{r capacitacion03}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Analyze and Visualize Looker Data", "Google Cloud", " ", "09, 2024",    
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion04}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Bioestadística aplicada a la investigación científica", "Sociedad Ecuatoriana de Estadística", " ", "02, 2022",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion05}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+   "useR 2021", "The R Foundation for Statistical Computing", " ", "07, 2021",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion06}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+    "Modelación estadística con Julia", "Sociedad Ecuatoriana de Estadística", " ", "05, 2021",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion07}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Women in Data Science Ecuador", "Universidad de Stanford - Sociedad Ecuatoriana de Estadística", " ", "04, 2021",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion08}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Análisis de redes sociales usando PLN, Machine Learning y Base de Datos", "Sociedad Ecuatoriana de Estadística", " ", "03, 2021",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion09}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Análisis de redes sociales usando Procesamiento de Lenguaje Natural", "Sociedad Ecuatoriana de Estadística", " ", "01, 2021",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion10}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Continuing Education Certificate in Leadership", "MARCONI International University", " ", "12, 2020",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion11}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+    "Construcción y validación de instrumentos de medición estadística", "Sociedad Ecuatoriana de Estadística", " ", "11, 2020",
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+```{r capacitacion12}
+tribble(
+  ~ title, ~ link, ~ event, ~ date,
+  "Visualización y Analítica de Datos con Power BI", "SolOpt S.A.", "  ", "09, 2020"
+) |> 
+  detailed_entries(with = title, what = link, where = event, when = date, .protect=FALSE)  
+```
+
+
+
+\normalsize
+
+
+\faIcon{hand-holding-heart} Voluntariado
+===============================
+
+```{r volunt1}
+tribble(
+  ~ study, ~ university, ~ loc, ~ dates,
+  "R-Ladies Guayaquil", "Co-organizadora \\href{https://twitter.com/RLadiesGye}{\\tiny{\\faIcon{link}}}","Guayaquil, EC", "09, 2021 - presente",
+  "The Carpentries", "Software Carpentry Instructor \\href{https://twitter.com/RLadiesGye}{\\tiny{\\faIcon{link}}}","Guayaquil, EC", "12, 2021 - presente",
+  "Women in Data Science", "Embajadora - Sede Machala \\href{https://www.facebook.com/watch/live/?ref=watch_permalink&v=388726483073415}{\\tiny{\\faIcon{link}}}","Machala, EC", "04, 2022",
+  ) |> 
+  detailed_entries(study, dates, university, loc, .protect=FALSE)
+```
+
+
+
+\faIcon{brain} Habilidades
 ================================
 
 \smallskip
 
-\faIcon{language} Languages
--------------------------------
-
-```{r langforeign, results='markup'}
-data.frame(
-  Skill = c("Reading", "Writing", "Listening","Speaking"),
-  Spanish = cell_spec(c(rep("Native", 4)), 'latex', color = '#005c7b'), 
-  English = cell_spec(c("C2","C1","C2","C2"), 'latex', color = '#009acd'), 
-  French = cell_spec(c("B2","B2","B2","B1"), 'latex', color = '#4cb8dc'), 
-  German = cell_spec(c("B1","B1","B1","B1"), 'latex', color = '#4cb8dc'), 
-  Portuguese = cell_spec(c("B1","A2","B1","A2"), 'latex', color = '#4cb8dc'), 
-  Dutch = cell_spec(c("A2","A1","A2","A2"), 'latex', color = '#7fcce6') 
-) |>
-  kable(booktabs = T, align = 'c', escape = F, format = "latex") |>
-  kable_styling(full_width = F, font_size = 9, latex_options = "HOLD_position") |> 
-  footnote(
-    footnote_as_chunk = T,
-    general_title = " ",
-    general = "\\\\tiny Common European Framework of Reference for Languages: A1/A2: Basic User. B1/B2: Independent User. C1/C2: Proficient User",
-    escape = F
-  ) |>
-  column_spec(column = 1:6, width = '2.4cm') #|> 
-  # add_header_above(' ', line = F) |>
-  # row_spec(0:4, extra_latex_after = "\\arrayrulecolor{white}") 
-```
-
-\faIcon{cogs} Technical skills
+\faIcon{cogs} Habilidades Técnicas
 ---------------------------------
 
 ```{r techtable, results='markup'}
@@ -337,84 +341,65 @@ data.frame(
 # ) |>
 #   brief_entries(what = desc, with = type, .protect = F)
 tribble(
-   ~`Coding Languages`, ~Software, ~Other,
-  "R -- Python -- SQL -- JavaScript",
-  "QGIS -- Earth Engine -- SAGA -- PostgreSQL -- ArcGIS -- GIMP",
-  "Git -- Markdown -- LaTex -- OpenStreetMap"
+   ~`Lenguajes de código`, ~`Inteligencia de negocio`, ~Otros,
+  "R -- Python -- SQL",
+  "Power Bi, Looker, Looker Studio",
+  "Git -- Markdown -- LaTex -- Shiny -- BigQuery"
 ) |>
 kable(booktabs = T, align = 'c', escape = F, format = "latex") |>
 kable_styling(full_width = F, font_size = 8, latex_options = "HOLD_position") |>
 row_spec(0, bold = T, color = "#009acd") |>
 row_spec(1, bold = F, color = "#7f7f7f") |>
-column_spec(column = 1:3, width = '4.75cm')
-```
-<!-- \faIcon{calendar} Organizational skills -->
-<!-- ------------------------------ -->
-```{r events, eval = FALSE}
-# tribble(
-#   ~ event, ~ date, ~ place,
-#   "FOSS4G workshop - sfnetworks: Tidy Geospatial Networks in R \\href{https://github.com/sfnetworks/foss4g-workshop}{\\tiny{\\faIcon{link}}}", "08, 2022", "Florence, Italy",
-#   "e-Rum 2020 satellite event: \\textit{sfnetworks} Webinar and Hackathon \\href{https://2020.erum.io/program/hackathon/}{\\tiny{\\faIcon{link}}}", "06, 2020", "Online Event",
-#   "citizenMorph App Testing Workshop", "09, 2019", "Höfn, IS",
-#   "GeoMundus 2018 \\href{http://www.geomundus.org/2018/}{\\tiny{\\faIcon{link}}}", "12, 2018", "Lisbon, PT",
-#   "I University Simposium of Environmental Science Research", "06, 2016", "Cuenca, EC",
-#   "Vicepresident of the Student Association of Environmental Engineers", "2013 - 2014", "Cuenca, EC",
-# ) |> 
-#   brief_entries(what = event, when = date, with = place, .protect = F)
+column_spec(column = 1:3, width = '5.25cm')
 ```
 
-<!-- \faIcon{users} Memberships -->
-<!-- =============================== -->
 
-```{r org, eval = FALSE}
+\faIcon{brain} Habilidades Blandas
+-------------------------------
+
+\scriptsize
+
+- Capacidad para identificar y analizar problemas complejos.
+- Habilidad para colaborar con equipos multidisciplinarios, facilitando el logro de objetivos comunes y promoviendo un ambiente de trabajo productivo.
+- Competencia para evaluar información objetivamente y tomar decisiones estratégicas basadas en datos.
+- Proactividad para proponer e implementar mejoras en procesos, adaptándome rápidamente a cambios y desafíos organizacionales.
+- Dedicación para cumplir objetivos y asumir la responsabilidad de proyectos clave, asegurando altos estándares de calidad y entrega en tiempos establecidos.
+
+
+
+\faIcon{language} Lenguajes
+-------------------------------
+
+```{r langforeign, results='markup'}
+data.frame(
+  Habilidad = c("Reading", "Writing", "Listening","Speaking"),
+  Español = cell_spec(c(rep("Nativo", 4)), 'latex', color = '#005c7b'), 
+  Inglés = cell_spec(c("C2","C1","C1","C1"), 'latex', color = '#009acd'), 
+  Francés = cell_spec(c("A1","A1","A1","A1"), 'latex', color = '#4cb8dc')
+) |>
+  kable(booktabs = T, align = 'c', escape = F, format = "latex") |>
+  kable_styling(full_width = F, font_size = 9, latex_options = "HOLD_position") |> 
+  footnote(
+    footnote_as_chunk = T,
+    general_title = " ",
+    escape = F
+  ) |>
+  column_spec(column = 1:3, width = '3.0cm') #|> 
+  # add_header_above(' ', line = F) |>
+  # row_spec(0:4, extra_latex_after = "\\arrayrulecolor{white}") 
+```
+
+
+
+\faIcon{users} Memberships
+===============================
+
+```{r org}
 tribble(
   ~ org, ~ date,
-  "R-Ladies Global \\href{https://rladies.org/austria-rladies/name/lorena-abad/}{\\tiny{\\faIcon{link}}}", "since 2020",
-  "Women+ in Geospatial \\href{https://speakers.womeningeospatial.org/speakers}{\\tiny{\\faIcon{link}}}", "since 2020",
-  "European Geosciences Union", "since 2020",
-  "Erasmus Mundus Association", "since 2020"
+  "R-Ladies Global \\href{https://rladies.org/directory/}{\\tiny{\\faIcon{link}}}", "desde 2021",
+  "The Carpentries \\href{https://carpentries.org/community/instructors/}{\\tiny{\\faIcon{link}}}", "desde 2021",
 ) |>
   brief_entries(what = org, when = date, .protect = F)
 ```
 
-<!-- \faIcon{comment} References -->
-<!-- ============================= -->
-
-<!-- \footnotesize -->
-
-<!-- - **Prof. Dr. Edzer Pebesma**, Institute for Geoinformatics, University of Muenster, edzer.pebesma@uni-muenster.de -->
-
-<!-- - **Prof. Dr. Marco Painho** NOVA Information Management School, painho@novaims.unl.pt -->
-
-<!-- - **Dr. Daniel Hölbling**, Department of Geoinformatics - Z\_GIS, PLUS, daniel.hoelbling@plus.ac.at -->
-
-<!-- \normalsize -->
-
-<!-- \footnotesize -->
-<!-- \begin{multicols}{3} -->
-<!-- \begin{center} -->
-
-<!-- \textbf{Prof. Dr. Edzer Pebesma} \newline -->
-<!-- \faIcon{phone} +49 251 83-33081 \newline -->
-<!-- \faIcon{at} edzer.pebesma@uni-muenster.de \newline -->
-<!-- \faIcon{envelope} Institute for Geoinformatics \newline -->
-<!-- Heisenbergstraße 2, \newline -->
-<!-- 48149 Münster, Germany -->
-
-<!-- \textbf{Prof. Dr. Marco Painho} \newline -->
-<!-- \faIcon{phone} +351 213 871 573 \newline -->
-<!-- \faIcon{at} painho@novaims.unl.pt \newline -->
-<!-- \faIcon{envelope} NOVA Information Management School \newline -->
-<!-- Campus de Campolide\newline -->
-<!-- 1070-312 Lisbon, Portugal -->
-
-<!-- \textbf{Mag. Daniel Hölbling} \newline -->
-<!-- \faIcon{phone} +43 (0)662 8044 7581 \newline -->
-<!-- \faIcon{at} daniel.hoelbling@plus.ac.at \newline -->
-<!-- \faIcon{envelope} Department of Geoinformatics - Z\_GIS 'newline -->
-<!-- Schillerstrasse 30 \newline -->
-<!-- 5020 Salzburg, Austria -->
-<!-- \end{center} -->
-<!-- \end{multicols} -->
-
-<!-- \normalsize -->
